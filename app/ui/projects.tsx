@@ -18,6 +18,8 @@ export default function Projects() {
                     description="Social networking web application developed using Next.js 14, Node.js, Express.js, and TailwindCSS. 
                                 It features a registration and login system with authentication powered by NextAuth.js.
                                 The API leverages Prisma ORM and PostgreSQL as the database."
+                    deploy="https://italk-zeta.vercel.app/"
+                    repo="https://github.com/guilhermevnbraga/AuthConnect"
                 />
                 <Project
                     title="EcoMar"
@@ -25,6 +27,8 @@ export default function Projects() {
                     description="The EcoMar project was developed as part of my final project on the Programadores do Amanhã (PDA) platform.
                                 EcoMar is an innovative platform that connects communities and facilitates the management and promotion of
                                 marine waste collection."
+                    deploy="https://ecomar.vercel.app"
+                    repo="https://github.com/reury-cardoso/ecoMar-finalproject-frontend"
                 />
             </div>
         </section>

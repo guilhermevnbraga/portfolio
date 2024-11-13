@@ -1,12 +1,15 @@
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 interface props {
     title: string;
     image: StaticImageData;
     description: string;
+    deploy: string;
+    repo: string;
 }
 
-export default function Project({ title, image, description }: props) {
+export default function Project({ title, image, description, deploy, repo }: props) {
     return (
         <div className="flex bg-[#3A3A3A]">
             <Image
@@ -23,12 +26,12 @@ export default function Project({ title, image, description }: props) {
                     <p>{description}</p>
                 </article>
                 <div className="flex gap-4">
-                    <button className="gold text-[#3A3A3A] font-bold w-[14vw] py-4 rounded-lg text-2xl btn-hover">
+                    <Link href={deploy} className="gold text-[#3A3A3A] font-bold w-[14vw] py-4 rounded-lg text-2xl btn-hover">
                         See Project
-                    </button>
-                    <button className="bg-[#1C1C1C] font-bold w-[14vw] px-12 py-3 rounded-lg text-2xl btn-hover">
+                    </Link>
+                    <Link href={repo} className="bg-[#1C1C1C] font-bold w-[14vw] px-12 py-3 rounded-lg text-2xl btn-hover">
                         {"< Repository />"}
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>
