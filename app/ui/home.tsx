@@ -11,7 +11,7 @@ export default function Home() {
                 <article className="flex flex-col justify-between py-12">
                     <div>
                         <h2 className="text-[#B5B5B5] text-4xl">
-                            Hi, I'm Guilherme Braga
+                            Hi, I&apos;m Guilherme Braga
                         </h2>
                         <div className="mt-6">
                             <h1 className="gold text-transparent bg-clip-text w-fit text-7xl">

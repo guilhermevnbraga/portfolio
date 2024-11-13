@@ -14,7 +14,7 @@ export default function About() {
             </h1>
             <article className={`${sans.className} text-4xl indent-12 text-[#F5F5F5]`}>
                 <p>
-                    Hi, I'm Guilherme, and I currently live in Pernambuco,
+                    Hi, I&apos;m Guilherme, and I currently live in Pernambuco,
                     Brazil. I am a Full Stack Web Developer specializing in
                     responsive and dynamic applications using TypeScript. On the
                     Front-End, I work with the Next.js framework, built on
