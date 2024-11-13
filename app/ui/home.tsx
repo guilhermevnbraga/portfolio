@@ -22,9 +22,12 @@ export default function Home() {
                             </h1>
                         </div>
                     </div>
-                    <button className="gold text-[#3A3A3A] font-bold w-fit px-12 py-3 rounded-lg text-2xl btn-hover">
+                    <a
+                        href="#contact"
+                        className="gold text-[#3A3A3A] font-bold w-fit px-12 py-3 rounded-lg text-2xl btn-hover"
+                    >
                         Contact me
-                    </button>
+                    </a>
                 </article>
                 <aside className="w-1/2 grow flex justify-end items-center">
                     <Image
