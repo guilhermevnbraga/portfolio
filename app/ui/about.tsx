@@ -9,7 +9,7 @@ const sans = Source_Sans_3({
 export default function About() {
     return (
         <section className="flex flex-col min-h-screen p-32 bg-[#3A3A3A] justify-evenly">
-            <h1 className="bg-gradient-to-r from-[#8F612D] via-[#EADF86] to-[#8F612D] text-transparent bg-clip-text font-bold text-7xl w-fit mb-12">
+            <h1 className="gold text-transparent bg-clip-text w-fit text-7xl mb-12">
                 About me
             </h1>
             <article className={`${sans.className} text-4xl indent-12 text-[#F5F5F5]`}>

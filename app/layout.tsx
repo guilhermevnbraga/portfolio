@@ -9,7 +9,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-    title: "Portfolio",
+    title: "Guilherme Braga",
     description: "Guilherme Braga Portfolio",
 };
 

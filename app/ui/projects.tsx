@@ -5,7 +5,7 @@ import Project from "./project";
 export default function Projects() {
     return (
         <section className="min-h-screen p-32 bg-[#1C1C1C] text-[#F5F5F5]">
-            <h1 className="bg-gradient-to-r from-[#8F612D] via-[#EADF86] to-[#8F612D] text-transparent bg-clip-text font-bold text-7xl w-fit mb-12">
+            <h1 className="gold text-transparent bg-clip-text w-fit text-7xl mb-12">
                 My Projects
             </h1>
             <div className="flex flex-col gap-12">

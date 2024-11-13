@@ -12,9 +12,7 @@ export default function Project({ title, image, description }: props) {
             <Image
                 src={image}
                 alt="Project Image"
-                width={200}
-                height={200}
-                className="w-1/2"
+                className="w-1/2 h-auto"
             />
             <div className="w-1/2 p-6 flex flex-col justify-between">
                 <div>
@@ -25,10 +23,10 @@ export default function Project({ title, image, description }: props) {
                     <p>{description}</p>
                 </article>
                 <div className="flex gap-4">
-                    <button className="bg-gradient-to-r from-[#8F612D] via-[#EADF86] to-[#8F612D] text-[#3A3A3A] font-bold w-[14vw] py-4 rounded-lg text-2xl hover:scale-105 active:scale-95">
+                    <button className="gold text-[#3A3A3A] font-bold w-[14vw] py-4 rounded-lg text-2xl btn-hover">
                         See Project
                     </button>
-                    <button className="bg-[#1C1C1C] font-bold w-[14vw] px-12 py-3 rounded-lg text-2xl hover:scale-105 active:scale-95">
+                    <button className="bg-[#1C1C1C] font-bold w-[14vw] px-12 py-3 rounded-lg text-2xl btn-hover">
                         {"< Repository />"}
                     </button>
                 </div>

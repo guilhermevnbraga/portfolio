@@ -29,13 +29,7 @@ const config: Config = {
     function (api: PluginAPI) {
       const newUtilities = {
         '.text-shadow': {
-          textShadow: '0px 2px 6px rgba(143, 97, 45, 1)',
-        },
-        '.text-shadow-md': {
-          textShadow: '3px 3px 6px rgba(143, 97, 45, 1)',
-        },
-        '.text-shadow-lg': {
-          textShadow: '4px 4px 8px rgba(143, 97, 45, 1)',
+          textShadow: '0px 3px 12px rgba(143, 97, 45, 1)',
         },
       }
 

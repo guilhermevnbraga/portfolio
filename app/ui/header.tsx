@@ -6,16 +6,16 @@ export default function Header() {
         <header className="flex w-full justify-between px-16 py-2 bg-[#1C1C1C]">
             <Image src={logo} alt="Logo" width={80} height={80} />
             <nav className="flex gap-24 text-3xl">
-                <button className="bg-gradient-to-r from-[#8F612D] via-[#EADF86] to-[#8F612D] text-transparent bg-clip-text hover:scale-105 active:scale-95 text-shadow">
+                <button className="gold text-transparent bg-clip-text w-fit btn-hover text-shadow">
                     Home
                 </button>
-                <button className="bg-gradient-to-r from-[#8F612D] via-[#EADF86] to-[#8F612D] text-transparent bg-clip-text hover:scale-105 active:scale-95 text-shadow">
+                <button className="gold text-transparent bg-clip-text w-fit btn-hover text-shadow">
                     About
                 </button>
-                <button className="bg-gradient-to-r from-[#8F612D] via-[#EADF86] to-[#8F612D] text-transparent bg-clip-text hover:scale-105 active:scale-95 text-shadow">
+                <button className="gold text-transparent bg-clip-text w-fit btn-hover text-shadow">
                     Projects
                 </button>
-                <button className="bg-gradient-to-r from-[#8F612D] via-[#EADF86] to-[#8F612D] text-transparent bg-clip-text hover:scale-105 active:scale-95 text-shadow">
+                <button className="gold text-transparent bg-clip-text w-fit btn-hover text-shadow">
                     Contact
                 </button>
             </nav>
