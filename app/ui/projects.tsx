@@ -4,7 +4,7 @@ import Project from "./project";
 
 export default function Projects() {
     return (
-        <section className="min-h-screen p-32 bg-[#1C1C1C] text-[#F5F5F5]">
+        <section id="projects" className="min-h-screen p-32 bg-[#1C1C1C] text-[#F5F5F5]">
             <h1 className="gold text-transparent bg-clip-text w-fit text-7xl mb-12">
                 My Projects
             </h1>

@@ -4,7 +4,7 @@ import Header from "./header";
 
 export default function Home() {
     return (
-        <div className="flex flex-col min-h-screen">
+        <div id="home" className="flex flex-col min-h-screen">
             <Header />
             <div className="gold h-0.5 w-full"></div>
             <section className="flex bg-[#1C1C1C] justify-between p-32 grow">
