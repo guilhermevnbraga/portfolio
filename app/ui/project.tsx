@@ -26,10 +26,10 @@ export default function Project({ title, image, description, deploy, repo }: pro
                     <p>{description}</p>
                 </article>
                 <div className="flex gap-4">
-                    <Link href={deploy} className="gold text-[#3A3A3A] font-bold w-[14vw] py-4 rounded-lg text-2xl btn-hover">
+                    <Link href={deploy} className="flex items-center justify-center gold text-[#3A3A3A] font-bold w-[14vw] py-4 rounded-lg text-2xl btn-hover">
                         See Project
                     </Link>
-                    <Link href={repo} className="bg-[#1C1C1C] font-bold w-[14vw] px-12 py-3 rounded-lg text-2xl btn-hover">
+                    <Link href={repo} className="flex items-center justify-center bg-[#1C1C1C] font-bold w-[14vw] px-12 py-3 rounded-lg text-2xl btn-hover">
                         {"< Repository />"}
                     </Link>
                 </div>
