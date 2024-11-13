@@ -1,10 +1,13 @@
-import Header from "./ui/header";
+import Home from "./ui/home";
+import About from "./ui/about";
+import Projects from "./ui/projects";
 
-export default function Home() {
+export default function Page() {
     return (
-        <main>
-            <Header />
-			<div className="bg-gradient-to-r from-[#8F612D] via-[#EADF86] to-[#8F612D] h-0.5 w-full"></div>
+        <main className="flex flex-col">
+            <Home />
+            <About />
+            <Projects />
         </main>
     );
 }

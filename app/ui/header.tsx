@@ -1,6 +1,5 @@
 import Image from "next/image";
 import logo from "./imgs/logo.png";
-import brasil from "./imgs/brasil.jpeg";
 
 export default function Header() {
     return (
@@ -18,9 +17,6 @@ export default function Header() {
                 </button>
                 <button className="bg-gradient-to-r from-[#8F612D] via-[#EADF86] to-[#8F612D] text-transparent bg-clip-text hover:scale-105 active:scale-95 text-shadow">
                     Contact
-                </button>
-                <button className="-ml-6">
-                    <Image src={brasil} alt="Brasil" width={60} height={60} />
                 </button>
             </nav>
         </header>
