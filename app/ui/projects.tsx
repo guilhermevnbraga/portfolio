@@ -8,28 +8,36 @@ export default function Projects() {
             id="projects"
             className="min-h-screen p-32 bg-[#1C1C1C] text-[#F5F5F5]"
         >
-            <h1 className="gold text-transparent bg-clip-text w-fit text-7xl mb-12">
-                My Projects
+            <h1
+                data-aos="fade-right"
+                data-aos-out="fade-left"
+                className="gold text-transparent bg-clip-text w-fit text-7xl mb-12"
+            >
+                Projetos
             </h1>
             <div className="flex flex-col gap-12">
-                <Project
-                    title="iTalk"
-                    image={italk}
-                    description="Social networking web application developed using Next.js 14, Node.js, Express.js, and TailwindCSS. 
-                                It features a registration and login system with authentication powered by NextAuth.js.
-                                The API leverages Prisma ORM and PostgreSQL as the database."
-                    deploy="https://italk-zeta.vercel.app/"
-                    repo="https://github.com/guilhermevnbraga/AuthConnect"
-                />
-                <Project
-                    title="EcoMar"
-                    image={ecomar}
-                    description="The EcoMar project was developed as part of my final project on the Programadores do Amanhã (PDA) platform.
-                                EcoMar is an innovative platform that connects communities and facilitates the management and promotion of
-                                marine waste collection."
-                    deploy="https://ecomar.vercel.app"
-                    repo="https://github.com/reury-cardoso/ecoMar-finalproject-frontend"
-                />
+                <div data-aos="fade-right" data-aos-out="fade-left">
+                    <Project
+                        title="iTalk"
+                        image={italk}
+                        description="Aplicação web de rede social desenvolvida com Next.js 14 (Front-end), Node.js e Express.js (Back-end),
+                    TailwindCSS (estilização) Suas principais funcionalidades são um sistema de cadastro e login com autenticação via NextAuth.js
+                    e uma API RESTful integrada ao PostgreSQL usando Prisma ORM (banco de dados relacional)"
+                        deploy="https://italk-zeta.vercel.app/"
+                        repo="https://github.com/guilhermevnbraga/AuthConnect"
+                    />
+                </div>
+                <div data-aos="fade-right" data-aos-out="fade-left">
+                    <Project
+                        title="EcoMar"
+                        image={ecomar}
+                        description="O projeto EcoMar foi desenvolvido como parte do meu trabalho final na plataforma Programadores do Amanhã (PDA).
+                    Trata-se de uma plataforma inovadora que conecta comunidades envolvidas na preservação marinha, facilita a gestão de coleta de resíduos no mar e
+                    promove ações sustentáveis através de ferramentas integradas."
+                        deploy="https://ecomar.vercel.app"
+                        repo="https://github.com/reury-cardoso/ecoMar-finalproject-frontend"
+                    />
+                </div>
             </div>
         </section>
     );

@@ -10,12 +10,18 @@ export default function Contact() {
             id="contact"
             className="min-h-screen p-32 bg-[#3A3A3A] text-[#F5F5F5] flex flex-col items-center"
         >
-            <h1 className="gold text-transparent bg-clip-text w-fit text-7xl mb-12">
-                Contact me
+            <h1
+                data-aos="fade-right"
+                data-aos-out="fade-left"
+                className="gold text-transparent bg-clip-text w-fit text-7xl mb-12"
+            >
+                Contatos
             </h1>
             <div className="flex w-full justify-between grow">
                 <nav className="flex w-full gap-40 items-center justify-center hover:cursor-default">
                     <Link
+                        data-aos="fade-right"
+                        data-aos-out="fade-left"
                         target="_blank"
                         href="https://www.linkedin.com/in/guilhermevnbraga/"
                         className="flex flex-col items-center justify-center"
@@ -30,6 +36,8 @@ export default function Contact() {
                         </p>
                     </Link>
                     <Link
+                        data-aos="fade-right"
+                        data-aos-out="fade-left"
                         target="_blank"
                         href="https://www.github.com/guilhermevnbraga/"
                         className="flex flex-col items-center justify-center hover:cursor-default"
@@ -44,6 +52,8 @@ export default function Contact() {
                         </p>
                     </Link>
                     <Link
+                        data-aos="fade-right"
+                        data-aos-out="fade-left"
                         href="mailto:guilhermeviniciuspj@gmail.com"
                         target="_blank"
                         className="flex flex-col items-center justify-center hover:cursor-default"
@@ -58,6 +68,8 @@ export default function Contact() {
                         </p>
                     </Link>
                     <Link
+                        data-aos="fade-right"
+                        data-aos-out="fade-left"
                         href="https://api.whatsapp.com/send?phone=5581995180108"
                         target="_blank"
                         className="flex flex-col items-center justify-center hover:cursor-default"
@@ -89,7 +101,13 @@ export default function Contact() {
                     </defs>
                 </svg>
             </div>
-            <p className="w-full flex justify-end">© 2024 Guilherme Braga</p>
+            <p
+                data-aos="fade-left"
+                data-aos-out="fade-right"
+                className="w-full flex justify-end"
+            >
+                © 2025 Guilherme Braga
+            </p>
         </section>
     );
 }

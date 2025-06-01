@@ -31,16 +31,16 @@ export default function Project({
                     <Link
                         href={deploy}
                         target="_blank"
-                        className="flex items-center justify-center gold text-[#3A3A3A] font-bold w-[14vw] py-4 rounded-lg text-2xl btn-hover"
+                        className="flex items-center justify-center gold text-[#3A3A3A] font-bold w-[15vw] py-4 rounded-lg text-2xl btn-hover"
                     >
-                        See Project
+                        Ver projeto
                     </Link>
                     <Link
                         href={repo}
                         target="_blank"
-                        className="flex items-center justify-center bg-[#1C1C1C] font-bold w-[14vw] px-12 py-3 rounded-lg text-2xl btn-hover"
+                        className="flex items-center justify-center bg-[#1C1C1C] font-bold w-[15vw] px-12 py-3 rounded-lg text-2xl btn-hover"
                     >
-                        {"< Repository />"}
+                        {"< Repositório />"}
                     </Link>
                 </div>
             </div>
