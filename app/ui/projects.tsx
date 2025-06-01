@@ -6,12 +6,12 @@ export default function Projects() {
     return (
         <section
             id="projects"
-            className="min-h-screen p-32 bg-[#1C1C1C] text-[#F5F5F5]"
+            className="min-h-screen px-4 py-16 sm:px-8 md:px-16 lg:px-32 xl:px-48 bg-[#1C1C1C] text-[#F5F5F5]"
         >
             <h1
                 data-aos="fade-right"
                 data-aos-out="fade-left"
-                className="gold text-transparent bg-clip-text w-fit text-7xl mb-12"
+                className="gold text-transparent bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-8 sm:mb-12"
             >
                 Projetos
             </h1>

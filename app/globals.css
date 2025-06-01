@@ -9,3 +9,7 @@
 .btn-hover {
   @apply hover:scale-105 active:scale-95;
 }
+
+html, body {
+  overflow-x: hidden;
+}

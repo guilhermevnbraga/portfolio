@@ -4,22 +4,21 @@ import Image from "next/image";
 export default function Home() {
     return (
         <div id="home" className="flex flex-col min-h-screen">
-            <div className="gold h-0.5 w-full"></div>
-            <section className="flex bg-[#1C1C1C] justify-between p-32 grow">
-                <article className="flex flex-col justify-between py-12">
+            <section className="mt-12 lg:mt-0 flex flex-col-reverse justify-evenly lg:flex-row bg-[#1C1C1C] p-6 sm:p-12 md:p-20 lg:p-32 grow gap-12">
+                <article className="flex flex-col grow justify-evenly items-center lg:items-start py-8 sm:py-12 w-full lg:w-1/2">
                     <div>
                         <div className="mb-6">
                             <h1
                                 data-aos="fade-right"
                                 data-aos-out="fade-left"
-                                className="gold text-transparent bg-clip-text w-fit text-7xl"
+                                className="gold text-transparent bg-clip-text text-center lg:w-fit text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
                             >
                                 Olá, Eu sou o
                             </h1>
                             <h1
                                 data-aos="fade-right"
                                 data-aos-out="fade-left"
-                                className="gold text-transparent bg-clip-text w-fit text-7xl"
+                                className="gold text-transparent bg-clip-text text-center lg:w-fit text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
                             >
                                 Guilherme Braga
                             </h1>
@@ -27,7 +26,7 @@ export default function Home() {
                         <h2
                             data-aos="fade-right"
                             data-aos-out="fade-left"
-                            className="text-[#B5B5B5] text-4xl"
+                            className="text-[#B5B5B5] text-2xl sm:text-3xl md:text-4xl"
                         >
                             Desenvolvedor Web Full Stack
                         </h2>
@@ -36,18 +35,19 @@ export default function Home() {
                         data-aos="fade-right"
                         data-aos-out="fade-left"
                         href="#contact"
-                        className="gold text-[#3A3A3A] font-bold w-fit px-12 py-3 rounded-lg text-2xl btn-hover"
+                        className="gold text-[#3A3A3A] font-bold w-fit px-8 py-3 sm:px-12 sm:py-3 rounded-lg text-lg sm:text-2xl btn-hover mt-8"
                     >
                         Fale comigo
                     </a>
                 </article>
-                <aside className="w-1/2 grow flex justify-end items-center">
+                <aside className="w-full lg:w-1/2 flex justify-center lg:justify-end items-center">
                     <Image
                         data-aos="fade-left"
                         data-aos-out="fade-right"
-                        className="rounded-[50%] w-1/2 h-auto"
+                        className="rounded-[50%] w-2/3 sm:w-1/2 md:w-2/5 lg:w-1/2 h-auto border-2 border-[#8F612D] shadow-lg"
                         src={profile}
                         alt="Profile"
+                        priority
                     />
                 </aside>
             </section>

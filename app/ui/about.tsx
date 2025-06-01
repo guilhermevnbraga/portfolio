@@ -10,12 +10,18 @@ export default function About() {
     return (
         <section
             id="about"
-            className="flex flex-col min-h-screen p-32 bg-[#3A3A3A] justify-evenly"
+            className="flex flex-col min-h-screen bg-[#3A3A3A] justify-evenly px-4 py-16 sm:px-8 md:px-16 lg:px-32 xl:px-48"
         >
-            <h1 data-aos="fade-right" data-aos-out="fade-left" className="gold text-transparent bg-clip-text w-fit text-7xl mb-12">
+            <h1
+                data-aos="fade-right"
+                data-aos-out="fade-left"
+                className="gold text-transparent bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-8 sm:mb-12"
+            >
                 Sobre mim
             </h1>
-            <article className={`${sans.className} text-4xl text-[#F5F5F5]`}>
+            <article
+                className={`${sans.className} text-lg sm:text-2xl md:text-3xl lg:text-4xl text-[#F5F5F5] leading-relaxed max-w-4xl lg:max-w-full`}
+            >
                 <p data-aos="fade-right" data-aos-out="fade-left">
                     Crio aplicações web completas, do Front-end ao Back-end,
                     focadas em alta performance e experiência do usuário. Meu
