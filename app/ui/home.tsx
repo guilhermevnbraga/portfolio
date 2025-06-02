@@ -11,14 +11,14 @@ export default function Home() {
                             <h1
                                 data-aos="fade-right"
                                 data-aos-out="fade-left"
-                                className="gold text-transparent bg-clip-text text-center lg:w-fit text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+                                className="gold text-transparent bg-clip-text text-center lg:w-fit text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl"
                             >
                                 Olá, Eu sou o
                             </h1>
                             <h1
                                 data-aos="fade-right"
                                 data-aos-out="fade-left"
-                                className="gold text-transparent bg-clip-text text-center lg:w-fit text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+                                className="gold text-transparent bg-clip-text text-center lg:w-fit text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl"
                             >
                                 Guilherme Braga
                             </h1>
